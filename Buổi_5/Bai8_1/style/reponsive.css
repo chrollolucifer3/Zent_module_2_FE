@@ -1,0 +1,119 @@
+
+@media all and (min-width: 320px) and (max-width:  767px) {
+
+    .about__content {
+        display: block;
+    }
+
+    .header__menu-icon {
+        display: block;
+    }
+
+    .header__menu {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        backdrop-filter: blur(7px);
+        justify-content: center;
+        background-color: rgba(255, 255, 255, 0.9);
+        margin-left: -100%;
+    }
+
+    .mobile-menu {
+        margin-left: 0;
+    }
+
+    .header__menu-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__menu-list li {
+        margin: 25px 0;
+        font-size: 1.25rem;
+    }
+
+    .about__content-left, .about__content-right {
+        flex-basis: 100%;
+    }
+
+    .about__content-right {
+        padding: 30px 0;
+    }
+
+    .about__menu-img {
+        flex-wrap: wrap;
+    }
+
+    .grid {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+
+    .item1 {
+        grid-column: auto; 
+    }
+
+    .item2 {
+        grid-row: auto; 
+        grid-column: auto; 
+    }
+
+    .more__content-infor3 {
+        top: 85%;
+    }
+
+    .more__content-infor1 {
+        top: 80%;
+    }
+
+    .more__content-infor2 {
+        top: 93%;
+    }
+
+    .footer__menu {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .footer__mid, .footer__left, .footer__right {
+        flex-basis: 100%;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width:  991px) {
+    
+    .about__content {
+        flex-wrap: wrap;
+    }
+
+    .about__content-left, .about__content-right {
+        flex-basis: 100%;
+    }
+
+    .more__content-infor3 {
+        top: 60%;
+    }
+
+    .more__content-infor1 {
+        top: 78%;
+    }
+
+    .more__content-infor2 {
+        top: 83%!;
+    }
+
+    .footer__mid {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .mid-1, .mid-2 {
+        flex-basis: 100%;
+    }
+}
