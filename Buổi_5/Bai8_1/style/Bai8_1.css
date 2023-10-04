@@ -434,14 +434,9 @@ form{
 }
 
 .search-button {
-    width: 75px;
-    color: aliceblue;
     height: 38px;
     top: 10px;
     /* left: 420px; */
-    border: none;
-    background: #1b819b;
-    border-radius: 0 2px 2px 0;
     position: absolute;
 }
 
@@ -455,15 +450,10 @@ input{
 }
 
 
-.footer__menu{
+.footer__menu {
     display: flex;
     padding: 50px 0;
     justify-content: space-between;
-}
-
-#footer{
-    background-color: rgb(34, 34, 34);
-    padding: 20px 0;
 }
 
 .footer__mid{
@@ -476,7 +466,7 @@ input{
     margin-top: 5px;
 }
 
- .footer__left p{
+ .footer__left>p{
     margin-top: 10px;
     text-align: start;
 }
@@ -491,14 +481,18 @@ input{
     text-align: left;
 }
 
-#footer p{
+#footer {
     text-align: center;
     color: #8a8888;
     font-size: 13px;
+    background-color: rgb(34, 34, 34);
+    padding: 20px 0;
 }
 
 .icon-contact{
     display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
 }
 
 .icon-contact i{
