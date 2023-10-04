@@ -84,6 +84,12 @@
     .footer__mid, .footer__left, .footer__right {
         flex-basis: 100%;
     }
+
+    .icon-contact {
+        display: flex;
+        justify-content: flex-start;
+        padding: 10px 0;
+    }
 }
 
 @media all and (min-width: 768px) and (max-width:  991px) {
