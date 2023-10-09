@@ -11,16 +11,16 @@ $(document).ready(function() {
 
         $lightboxImage.attr("src", src);
         $imageDescription.text(alt);
-        $lightbox.slideDown();
+        $lightbox.addClass("show"); // Thêm lớp để hiển thị lightbox
     });
 
     $closeButton.on("click", function() {
-        $lightbox.slideUp();
+        $lightbox.removeClass("show"); // Loại bỏ lớp để ẩn lightbox
     });
 
     $lightbox.on("click", function(event) {
         if (event.target === this) {
-            $lightbox.slideUp();
+            $lightbox.removeClass("show"); // Loại bỏ lớp để ẩn lightbox khi nhấp vào bên ngoài
         }
     });
 });
