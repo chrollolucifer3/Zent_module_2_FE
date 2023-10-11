@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.header__menu-icon {
+    position: absolute;
+    top: 15px;
+    left: 95%;
+    display: none;
+}
+
+.header__menu-icon i{
+    font-size: 20px;
+    color: black;
+}
+
+.header__logo h1 {
+    margin: 0;
+    color: black;
+    font-size: 25px;
+}
+
+#header {
+    background-color: white;
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header__menu-list {
+    margin: 0;
+    padding: 0;
+}
+
+.header__menu-list>li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    position: relative;
+}
+
+.header__menu-list>li>a {
+    padding: 10px;
+}
+
+.mobile-menu {
+    margin-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header__menu-title {
+    display: none;
+    color: black;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    margin: 25px 0;
+    font-size: 1.25rem;
+
+}
+
+.header__menu-list li a,.header__menu-title   {
+    font-weight: 700;
+}
+
+.submenu {
+    position: absolute;
+    width: 200px;
+    top: 35px;
+    padding: 10px;
+    background-color: white;
+    box-shadow:  1px 1px 5px rgb(27, 80, 27, 0.2);
+    display: none;
+}
+
+.header__menu-list>li:hover>.submenu {
+    display: block;
+}
+
+
+.submenu li {
+    display: block;
+    padding: 10px;
+}
+
+
+.wrap {
+    width: 90%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+#main {
+    background-image:url(https://www.elle.vn/wp-content/uploads/2021/03/11/427109/1-hinh-anh-dep-thac-Haifoss-Reddit-1024x1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.main__color {
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.main__wrapper{
+    padding: 150px 0;
+    text-align: center;
+}
+
+.main__content-green {
+    background-color: rgb(95, 148, 15);
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 3px;
+    color: white;
+}
+
+.main__content>p{
+    font-size: 70px;
+    line-height: 100px;
+    font-weight: 100;
+    margin: 20px 0;
+}
+
