@@ -89,9 +89,9 @@ a {
     display: none;
 }
 
-.header__menu-list>li:hover>.submenu {
+/* .header__menu-list>li:hover>.submenu {
     display: block;
-}
+} */
 
 
 .submenu li {
@@ -137,3 +137,15 @@ a {
     margin: 20px 0;
 }
 
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.mobile-menu {
+    animation: slideIn 0.5s forwards; /* Áp dụng animation khi hiển thị mobile-menu */
+}

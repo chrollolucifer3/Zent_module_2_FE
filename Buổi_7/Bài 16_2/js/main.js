@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    // Thêm sự kiện click cho nút menu mobile
     $(".header__menu-icon").click(function() {
         $(".header__menu").toggleClass("mobile-menu");
         if ($(".header__menu").hasClass("mobile-menu")) {
@@ -10,19 +11,43 @@ $(document).ready(function() {
 
     function toggleSubmenu() {
         if ($(window).width() <= 767) {
-
-            $(".header__menu-list li.hide > a").click(function(e) {
+            // Ẩn submenu khi kích thước màn hình nhỏ hơn hoặc bằng 767px
+            $(".submenu").slideUp();
+            // Xử lý sự kiện click cho liên kết "Blog" khi màn hình nhỏ
+            $(".header__menu-list li.hide > a").off("click").on("click", function(e) {
                 e.preventDefault();
-                $(this).siblings('.submenu').slideToggle();
-                $(this).find('i').toggleClass("fa-angle-down fa-angle-right");
+                var submenu = $(this).siblings('.submenu');
+                $(".submenu").not(submenu).slideUp();
+                $(".header__menu-list li.hide > a i").not($(this).find('i')).removeClass("fa-angle-down").addClass("fa-angle-right");
+
+                if (submenu.is(":visible")) {
+                    submenu.slideUp();
+                    $(this).find('i').removeClass("fa-angle-down").addClass("fa-angle-right");
+                } else {
+                    submenu.slideDown();
+                    $(this).find('i').removeClass("fa-angle-right").addClass("fa-angle-down");
+                }
             });
         } else {
-
-            $(".header__menu-list li.hide > a").off("click");
+            // Xử lý sự kiện click cho liên kết "Blog" khi màn hình lớn
+            $(".header__menu-list li.hide > a").off("click").on("click", function(e) {
+                e.preventDefault();
+                var submenu = $(this).siblings('.submenu');
+                if (submenu.is(":visible")) {
+                    submenu.slideUp();
+                    $(this).find('i').removeClass("fa-angle-down").addClass("fa-angle-right");
+                } else {
+                    submenu.slideDown();
+                    $(this).find('i').removeClass("fa-angle-right").addClass("fa-angle-down");
+                }
+            });
         }
     }
 
+    // Gọi hàm để xử lý hiển thị submenu khi trang web tải lên hoặc thay đổi kích thước màn hình
     toggleSubmenu();
 
-    $(window).resize(toggleSubmenu);
+    $(window).on('load resize', function() {
+        toggleSubmenu();
+    });
 });
