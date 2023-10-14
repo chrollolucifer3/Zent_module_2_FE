@@ -283,6 +283,14 @@ input {
     color: #a5a5bf;
 }
 
+.emailError, #submitBtn {
+    display: block;
+}
+
+#submitBtn {
+    width: 25%;
+}
+
 .brand-section .brand-logo {
     opacity: .4;
     transition: all .3s ease-in-out;
