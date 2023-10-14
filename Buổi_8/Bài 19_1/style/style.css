@@ -345,3 +345,58 @@ input {
 .py-2:hover .fs-15 {
     color: #50c594;
 }
+
+.py-5 {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+}
+.px-4 {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+
+.solution:hover, .solution.active {
+    box-shadow: 0px 0px 12px 8px rgba(31,27,81,.05) !important;
+}
+.solution {
+    transition: all0 .5s ease-in-out;
+}
+
+.solution .sol-icon {
+    color: rgba(38,59,94,.11)!important;
+}
+
+.fs-16 {
+    color: #263B5e;
+}
+
+.solution:hover .sol-icon {
+    color: #50c594 !important;
+}
+
+.solution.active .sol-icon {
+    color: #50c594 !important;
+}
+
+.owl-nav {
+    display: none;
+}
+
+.owl-dots {
+    margin-top: 10px;
+}
+
+.text-after::after {
+    content: "";
+    width: 140px;
+    height: 1px;
+    top:110px;
+    background-color: #50c594;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.text-after {
+    margin-bottom: 50px!important;
+}

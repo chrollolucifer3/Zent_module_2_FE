@@ -14,6 +14,9 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <!-- OWl slide -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Bootstrap Example</title>
     <!-- link css -->
     <link rel="stylesheet" href="./style/style.css">
@@ -78,7 +81,73 @@
                     <h4 class="fw-semibold mb-3">Get Every Solution</h4>
                     <h5 class="text-muted fw-normal">Don't you get what you want?</h5>
                 </div>
-                <!-- Phần bỏ tạm chưa làm -->
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-12 owl-carousel carousel-5 owl-theme">
+                    <div class="mt-4 pt-2">
+                        <div class="solution border rounded px-4 py-5 active">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cloud sw-1 mb-4 icon-xxl sol-icon"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+                            <h5 class="lh-base fs-16 mb-2">Image Cloud</h5>
+                            <a class="text-muted"><span class="fw-semibold fs-15 text-dark">$0.59</span> - Month</a>
+                        </div>
+                    </div>
+                    <div class="mt-4 pt-2">
+                        <div class="solution border rounded position-relative px-4 py-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bar-chart-2 sw-1 mb-4 icon-xxl sol-icon"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                            <h5 class="lh-base fs-16 mb-2">Digital Analytics</h5>
+                            <a class="text-muted"><span class="fw-semibold fs-15 text-dark">$3.2</span> - Month</a>
+                        </div>
+                    </div>
+                    <div class="mt-4 pt-2">
+                        <div class="solution border rounded position-relative px-4 py-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-gitlab sw-1 mb-4 icon-xxl sol-icon"><path d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z"></path></svg>
+                            <h5 class="lh-base fs-16 mb-2">Safe &amp; Reliable</h5>
+                            <a class="text-muted"><span class="fw-semibold fs-15 text-dark">$2.98</span> - Month</a>
+                        </div>
+                    </div>
+                    <div class="mt-4 pt-2">
+                        <div class="solution border rounded position-relative px-4 py-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bar-chart-2 sw-1 mb-4 icon-xxl sol-icon"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                            <h5 class="lh-base fs-16 mb-2">Digital Analytics</h5>
+                            <a class="text-muted"><span class="fw-semibold fs-15 text-dark">$3.2</span> - Month</a>
+                        </div>
+                    </div>
+                    <div class="mt-4 pt-2">
+                        <div class="solution border rounded position-relative px-4 py-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bar-chart-2 sw-1 mb-4 icon-xxl sol-icon"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                            <h5 class="lh-base fs-16 mb-2">Digital Analytics</h5>
+                            <a class="text-muted"><span class="fw-semibold fs-15 text-dark">$3.2</span> - Month</a>
+                        </div>
+                    </div>
+                    <div class="mt-4 pt-2">
+                        <div class="solution border rounded position-relative px-4 py-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bar-chart-2 sw-1 mb-4 icon-xxl sol-icon"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                            <h5 class="lh-base fs-16 mb-2">Digital Analytics</h5>
+                            <a class="text-muted"><span class="fw-semibold fs-15 text-dark">$3.2</span> - Month</a>
+                        </div>
+                    </div>
+                    <div class="mt-4 pt-2">
+                        <div class="solution border rounded position-relative px-4 py-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bar-chart-2 sw-1 mb-4 icon-xxl sol-icon"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                            <h5 class="lh-base fs-16 mb-2">Digital Analytics</h5>
+                            <a class="text-muted"><span class="fw-semibold fs-15 text-dark">$3.2</span> - Month</a>
+                        </div>
+                    </div>
+                    <div class="mt-4 pt-2">
+                        <div class="solution border rounded position-relative px-4 py-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bar-chart-2 sw-1 mb-4 icon-xxl sol-icon"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                            <h5 class="lh-base fs-16 mb-2">Digital Analytics</h5>
+                            <a class="text-muted"><span class="fw-semibold fs-15 text-dark">$3.2</span> - Month</a>
+                        </div>
+                    </div>
+                    <div class="mt-4 pt-2">
+                        <div class="solution border rounded position-relative px-4 py-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bar-chart-2 sw-1 mb-4 icon-xxl sol-icon"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                            <h5 class="lh-base fs-16 mb-2">Digital Analytics</h5>
+                            <a class="text-muted"><span class="fw-semibold fs-15 text-dark">$3.2</span> - Month</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -327,7 +396,56 @@
     <!-- Kết thúc Pricing -->
     <!-- Bắt đầu phần client  -->
     <section class="section" id="client">
-
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-12 mb-4">
+                    <h4 class="fw-semibold mb-3">
+                        Our Client Says
+                    </h4>
+                    <h5 class="text-muted fw-normal">Here From Our Members</h5>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-12 owl-carousel carousel-1 owl-theme">
+                    <div class="client-review">
+                            <h5 class="mt-4">Denver S. Taylor</h5>
+                            <p class="text-muted text-after">Web Developer</p>
+                            <div class="cli-text text-center text-muted">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Suspendisse varius enim in eros elementum tristique. Duis cursus <br> mi quis viverra ornare, eros dolor interdum nulla, ut commodo dia <br> libero
+                                    vitae erat. Aenean.
+                                </p>
+                            </div>
+                    </div>
+                    <div class="client-review">
+                            <h5 class="mt-4">Denver S. Taylor</h5>
+                            <p class="text-muted text-after">Web Developer</p>
+                            <div class="cli-text text-center text-muted">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Suspendisse varius enim in eros elementum tristique. Duis cursus <br> mi quis viverra ornare, eros dolor interdum nulla, ut commodo dia <br> libero
+                                    vitae erat. Aenean.
+                                </p>
+                            </div>
+                    </div>
+                    <div class="client-review">
+                        <h5 class="mt-4">Denver S. Taylor</h5>
+                        <p class="text-muted text-after">Web Developer</p>
+                        <div class="cli-text text-center text-muted">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Suspendisse varius enim in eros elementum tristique. Duis cursus <br> mi quis viverra ornare, eros dolor interdum nulla, ut commodo dia <br> libero
+                                vitae erat. Aenean.
+                            </p>
+                        </div>
+                </div>
+                <div class="client-review">
+                    <h5 class="mt-4">Denver S. Taylor</h5>
+                    <p class="text-muted text-after">Web Developer</p>
+                    <div class="cli-text text-center text-muted">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Suspendisse varius enim in eros elementum tristique. Duis cursus <br> mi quis viverra ornare, eros dolor interdum nulla, ut commodo dia <br> libero
+                            vitae erat. Aenean.
+                        </p>
+                    </div>
+            </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- Kết thúc phần client -->
     <!-- Bắt đầu phần contact -->
@@ -430,6 +548,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">   
   </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="./js/jquery.js"></script>
 </body>
 </html>
