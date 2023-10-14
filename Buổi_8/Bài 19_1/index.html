@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
+  <title>Bootstrap 5</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,21 +12,23 @@
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <title>Bootstrap Example</title>
+    <!-- link css -->
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/reponsive.css">
+    <!-- link font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./style/reponsive.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 
 </head>
   <body data-bs-spy="scroll" data-target="#navbar">
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top sticky" id="navbar">
         <div class="container">
-            <a href="#" class="navbar-brand"><img src="./img/logo.png" alt="" height="22"></a>
+            <a href="#" class="navbar-brand"><img src="./img/Audi-Logo_2016.svg.png" alt="" height="22"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -36,15 +38,16 @@
                     <li class="nav-item"><a href="#feature" class="nav-link">Features</a></li>
                     <li class="nav-item"><a href="#service" class="nav-link">Services</a></li>
                     <li class="nav-item"><a href="#faq" class="nav-link">Faq</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Pricing</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Client</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Join Us</a></li>
+                    <li class="nav-item"><a href="#pricing" class="nav-link">Pricing</a></li>
+                    <li class="nav-item"><a href="#client" class="nav-link">Client</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Join Us</a></li>
                 </ul>
                 <div><a href="" class="btn btn-sm nav-btn btn-primary mb-2 mb-lg-0 ms-auto">Contact Us</a></div>
             </div>
         </div>
     </nav>
-    
+    <!-- Hết phần navbar -->
+    <!-- Phần home -->
     <section class="hero-3 position-relative d-flex align-items-center justify-content-center overflow-hidden" id="home">
         <img src="./img/2.png" alt="" class="hero-3-bg">
         <div class="container">
@@ -67,6 +70,7 @@
             </div>
         </div>
     </section>
+    <!-- Hết phần home -->
     <!-- Phần Get Every Solution -->
     <section class="service-section">
         <div class="container">
@@ -195,7 +199,6 @@
         </div>
     </section>
     <!-- Kết thúc phần Services -->
-
     <!-- Phần Faq -->
     <section class="section border-top overflow-hidden" id="faq">
         <div class="container">
@@ -253,7 +256,7 @@
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <strong>This is the four item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                       </div>
                     </div>
                   </div>
@@ -266,6 +269,160 @@
         </div>
     </section>
     <!-- Kết thúc phần Faq -->
+    <!-- Bắt đầu phần Pricing -->
+    <section class="section bg-light" id="pricing">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 text-center mb-4">
+                    <h4 class="fw-semibold mb-3">
+                        Our Prices
+                    </h4>
+                    <h5 class="text-muted fw-normal">Get Your Best Package</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                    <div class="bg-white border px-4 py-5 text-center rounded">
+                        <h6 class="text-uppercase pri-text position-relative">Basic</h6>
+                        <h1 class="mt-4 pt-4 display-5"><sup class="fs-3">$</sup>0</h1>
+                        <h6 class="text-uppercase text-muted">Per Month</h6>
+                        <div class="mt-4">
+                            <p class="py-2"><span class="text-primary icon me-2">∎</span> 10 GB Disk Space</p>
+                            <p class="py-2"><span class="text-primary icon me-2">∎</span> 1 Year Technical Support</p>
+                            <p class="py-2"><span class="text-primary icon me-2">∎</span> SQL Database</p>
+                            <p class="py-2"><span class="text-primary icon me-2">∎</span> 10+ Profitable Keyword</p>
+                        </div>
+                        <a href="#" class="btn btn-primary mt-4">Start Trial <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right icon icon-xs"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                    <div class="bg-dark border px-4 py-5 text-center rounded">
+                        <h6 class="text-uppercase text-white pri-text position-relative">Business</h6>
+                        <h1 class="mt-4 pt-4 text-white display-5"><sup class="fs-3">$</sup>20</h1>
+                        <h6 class="text-uppercase text-muted">Per Month</h6>
+                        <div class="mt-4 text-muted">
+                            <p class="py-2"><span class="text-muted icon me-2">∎</span> 10 GB Disk Space</p>
+                            <p class="py-2"><span class="text-muted icon me-2">∎</span> 1 Year Technical Support</p>
+                            <p class="py-2"><span class="text-muted icon me-2">∎</span> SQL Database</p>
+                            <p class="py-2"><span class="text-muted icon me-2">∎</span> 10+ Profitable Keyword</p>
+                        </div>
+                        <a href="#" class="btn btn-primary mt-4 blue">Start Trial <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right icon icon-xs"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                    <div class="bg-white border px-4 py-5 text-center rounded">
+                        <h6 class="text-uppercase pri-text position-relative">Premium</h6>
+                        <h1 class="mt-4 pt-4 display-5"><sup class="fs-3">$</sup>30</h1>
+                        <h6 class="text-uppercase text-muted">Per Month</h6>
+                        <div class="mt-4">
+                            <p class="py-2"><span class="text-primary icon me-2">∎</span> 10 GB Disk Space</p>
+                            <p class="py-2"><span class="text-primary icon me-2">∎</span> 1 Year Technical Support</p>
+                            <p class="py-2"><span class="text-primary icon me-2">∎</span> SQL Database</p>
+                            <p class="py-2"><span class="text-primary icon me-2">∎</span> 10+ Profitable Keyword</p>
+                        </div>
+                        <a href="#" class="btn btn-primary mt-4">Start Trial <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right icon icon-xs"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Kết thúc Pricing -->
+    <!-- Bắt đầu phần client  -->
+    <section class="section" id="client">
+
+    </section>
+    <!-- Kết thúc phần client -->
+    <!-- Bắt đầu phần contact -->
+    <section class="service-section overflow-hidden" id="contact">
+        <div class="container">
+            <div class="row align-items-center bg-light rounded p-4">
+                <div class="col-lg-6">
+                    <h5 class="text-primary mb-3">Recent</h5>
+                    <h3 class="mb-4">5000<sup>+</sup> Project <br> all over the world</h3>
+                    <h6 class="text-muted fw-normal">Join the community now !</h6>
+                    <form class="mt-4">
+                        <input type="email" class="form-control" placeholder="enter email">
+                        <a href="#" class="btn btn-primary mt-3">Submit <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-send icon-xxs icon"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg></a>
+                    </form>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <img class="img-fluid mt-sm-0 mt-5" src="./img/6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Kết thúc phần contact -->
+    <!-- brand -->
+    <section class="brand-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-6 my-4">
+                    <img class="img-fluid mx-auto brand-logo" src="./img/sony.png" alt="">
+                </div>
+                <div class="col-md-3 col-6 my-4">
+                    <img class="img-fluid mx-auto brand-logo" src="./img/sony.png" alt="">
+                </div>
+                <div class="col-md-3 col-6 my-4">
+                    <img class="img-fluid mx-auto brand-logo" src="./img/sony.png" alt="">
+                </div>
+                <div class="col-md-3 col-6 my-4">
+                    <img class="img-fluid mx-auto brand-logo" src="./img/sony.png" alt="">
+                </div>
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end-container -->
+    </section>
+    <!-- Kết thúc brand -->
+
+    <!-- footer -->
+    <footer class="footer bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#">
+                            <img src="./img/Audi-Logo_2016_white.png" alt="" height="22">
+                        </a>
+                    <h6 class="mt-4 pt-2 text-white">Locate Us</h6>
+                    <p class="mt-3 text-muted fs-15">3964 White River Way behind <br> Salt Lake City, UT <br> 84106
+                    </p>
+                    <h6 class="text-primary fw-medium fs-15 mt-4">801-468-2313</h6>
+                    <h6 class="text-primary fw-medium fs-15 mt-2">591-578-1234</h6>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <h6 class="mb-3 mt-sm-0 mt-5 text-white">Others Links</h6>
+                    <ul class="list-unstyled footer-list">
+                        <li class="py-2"><a class="fs-15" href="#"><span class="icon fs-12 me-2">∎</span> About Us</a></li>
+                        <li class="py-2"><a class="fs-15" href="#"><span class="icon fs-12 me-2">∎</span> Contact Us</a></li>
+                        <li class="py-2"><a class="fs-15" href="#"><span class="icon fs-12 me-2">∎</span> Pricing</a></li>
+                        <li class="py-2"><a class="fs-15" href="#"><span class="icon fs-12 me-2">∎</span> Privacy Policy</a></li>
+                        <li class="py-2"><a class="fs-15" href="#"><span class="icon fs-12 me-2">∎</span> Terms &amp; Condition</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 offset-lg-1">
+                    <div class="card rounded border-0 mt-sm-0">
+                        <div class="map rounded">
+                            <a href="#" class="btn btn-light text-dark position-absolute top-50 start-50 translate-middle map-btn">View Map</a>
+                            <div class="bg-overlay rounded position-absolute top-0 right-0 bottom-0 left-0"></div>
+                            <iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.690044441741!2d105.92918937467175!3d21.005058288593286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a94c1f882977%3A0x6d016e6656923f46!2zSOG7jWMgdmnhu4duIE7DtG5nIE5naGnhu4dwIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1697252769542!5m2!1svi!2s" width="100%" height="230" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- hết footer -->
+    <!-- footer2  -->
+    <div class="footer-alt bg-dark">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <span class="text-muted">2023 © by <a href="#" class="text-muted">Cường</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hết footer 2 -->
   </body>
   <script src="./js/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
